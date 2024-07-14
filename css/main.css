@@ -1,0 +1,223 @@
+body{
+   
+    background-color: #0D0D0D;
+
+}
+/* side barrrr */
+.nav
+{
+    width: 70px ;
+   
+}
+.info
+{
+    
+    
+    background-color: #0D0D0D;
+}
+.sidebar 
+{  
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999 !important;
+    background-color:#0D0D0D;
+    li{
+    color: white;
+    list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    i{
+        cursor: pointer;
+    }    
+}
+
+
+/* home */
+     .inner img{
+        border: #0D0D0D 1px solid;
+        border-radius:15px ;
+    }
+     .inner{
+        border: #0D0D0D 1px solid;
+        border-radius:15px ;
+        
+    }
+   
+    .layer{
+        opacity:0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 100%;
+        border: transparent 1px solid;
+        border-radius:15px ;
+        transition: all .5s;
+
+    }
+     .inner:hover .layer{
+        opacity: 70%;
+        top: 0;
+    }
+
+ /* detaliesLayer */
+ .detaliesLayer
+ {
+    z-index: 99;
+    background-color: #0D0D0D;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+     left: 3%;
+     border: transparent 1px solid;
+     border-radius:15px ;
+     overflow: scroll !important;
+     
+
+
+ }
+ .detaliesLayer img{
+    border: transparent 1px solid;
+    border-radius:15px ;
+
+ }
+ .detaliesLayer span
+ {
+    background-color: #CFF4FC;
+    color: #0D0D0D;
+    padding: 4px;
+    border: transparent 1px solid;
+    border-radius:10px ;
+    /* margin: 30x;    */
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 3px;
+ }
+ .detaliesLayer .sapnTag
+ {
+    background-color: #F8D7DA;
+    color: #842029;
+    padding: 6px;
+    border: transparent 1px solid;
+    border-radius:10px ;
+    display:inline-block;
+    width:auto;
+    margin-bottom: 10px;
+
+ }
+ .detaliesLayer .source
+ {
+    border: transparent 1px solid;
+    border-radius:10px ;
+    background-color: #157347;
+    text-align: center;
+    color: white;
+
+ }
+ .detaliesLayer .youtube
+ {
+    border: transparent 1px solid;
+    border-radius:10px ;
+    background-color:#DC3545;
+    text-align: center;
+    color: white;
+ }
+ .detaliesLayer .xmark
+ {
+    cursor: pointer;
+ }
+  
+
+ /* searchlayer */
+
+ .searchlayer input
+ {
+    border: 1px white solid;
+    border-radius:8px ;
+    background-color: transparent;
+
+    padding: 5px;
+ }
+ .form-control:focus
+ {
+    background-color: transparent;
+ }
+.back
+{
+    background-color: rgb(156, 109, 109);
+    border: 1px solid transparent;
+    border-radius:5px ;
+    padding: 2px;
+}
+
+
+
+ /* arealayer */
+
+ .mealarea i{
+    cursor: pointer;
+ }
+ 
+
+ .h-208{
+   height: 208px;
+
+ }
+ .ingediensmeal 
+ {
+   cursor: pointer;
+ }
+ 
+
+ .fixed-posation
+ {
+   background-color: #0D0D0D;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   right: 0;
+    left: 0%;
+    overflow: scroll;
+ }
+ .submit
+ {
+   color: rgb(184, 15, 57);
+   border: 1px rgb(184, 9, 38) solid;
+   padding: 8px;
+   border-radius:10px ;
+  
+ }
+ .bg-alert
+ {
+   background-color: #F8D7DA;
+ }
+ .loader
+ {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+  
+     display:none;
+     justify-content: center;
+     align-items: center;
+     background-color: #151a2e;
+     opacity: 80%;
+     z-index: 999999999;
+ }
+ .loader i{
+     
+     font-size: 60px;
+ }
+ .form-btn:disabled {
+   opacity: 0.7;
+   cursor: not-allowed;
+ }

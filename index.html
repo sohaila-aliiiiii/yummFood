@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- css -->
+     <link href="css/all.min.css" rel="stylesheet">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- loadscreen -->
+    <div class="loader svg">
+        <i class="fa-solid fa-spinner fa-spin-pulse " style="color:white;"></i>
+      </div>
+<!-- side barrrrrrrrrrr -->
+    <div class="sidebar d-flex z-2  ">
+        <div class="info py-5 pe-3 d-flex flex-column justify-content-between ">
+            <ul>
+                <a href="#" class="search"><li>search</li></a>
+                <a href="#" class="categories"><li>categories</li></a>
+                <a href="#" class="area"><li>area</li></a>
+               <a href="#" class="ingredients"><li>ingredients</li></a>
+                <a href="#" class="contact"><li>contact Us</li></a>
+            </ul>
+            <div class="text-white icons ps-4 pt-5 ">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+            </div>
+       </div>
+
+    <div class="d-flex flex-column justify-content-around   nav  p-3 bg-white ">
+        <img src="imag/logo (1).png" class="w-100">
+        <i class="fa-solid  fa-2x  fa-align-justify " id="openIcon"></i>
+        <div>
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>    
+    </div>
+    </div>
+<!-- layer detalies of mail -->
+<div class="detaliesLayer   p-5 d-none">
+    <div class="container pt-5">
+        <div class="d-flex justify-content-end">
+        <li class=" fa-solid fa-x fs-3 text-white mb-1 xmark"></li>
+        </div>
+        <div class="row rowlayer">
+            <!-- <div class="col-md-4">
+                <img src="imag/58oia61564916529.jpg" class="w-100">
+                <h2 class="text-white">copra</h2>
+            </div>
+            <div class="col-md-8 text-white">
+                <h2>Instructions</h2>
+                <p>Pick through your lentils for any foreign debris, rinse them 2 or 3 times, drain, and set aside.  Fair warning, this will probably turn your lentils into a solid block that you’ll have to break up later
+                    In a large pot over medium-high heat, sauté the olive oil and the onion with a pinch of salt for about 3 minutes, then add the carrots and cook for another 3 minutes.
+                    Add the tomato paste and stir it around for around 1 minute. Now add the cumin, paprika, mint, thyme, black pepper, and red pepper as quickly as you can and stir for 10 seconds to bloom the spices. Congratulate yourself on how amazing your house now smells.
+                    Immediately add the lentils, water, broth, and salt. Bring the soup to a (gentle) boil.
+                    After it has come to a boil, reduce heat to medium-low, cover the pot halfway, and cook for 15-20 minutes or until the lentils have fallen apart and the carrots are completely cooked.
+                    After the soup has cooked and the lentils are tender, blend the soup either in a blender or simply use a hand blender to reach the consistency you desire. Taste for seasoning and add more salt if necessary.
+                    Serve with crushed-up crackers, torn up bread, or something else to add some extra thickness.  You could also use a traditional thickener (like cornstarch or flour), but I prefer to add crackers for some texture and saltiness.  Makes great leftovers, stays good in the fridge for about a week.</p>
+                    <h2>Area : Turkis</h2>
+                    <h2>Category : Side</h2>
+                    <h2>Recipes :</h2>
+                    <div >
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    </div>
+                    <br/>
+                    <div>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    </div>
+                    <br/>
+                    <div>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    <span>1 cup Lentils</span>
+                    </div>
+                    <h2 class="mt-2 mb-3">Tags :</h2>
+                    <spna class="sapnTag ">soup</spna>
+                   <a href="#" class="text-decoration-none"><button class="source p-2">Source</button></a>
+                    <a href="#" class="text-decoration-none"><button class="youtube p-2">Youtube</button></a>
+
+            </div> -->
+        </div>
+
+    </div>
+
+   </div>
+</div>
+ <!--homeeeeeeeeeeeeeeeeeeeeee  -->
+    <section class="home vh-100 ">
+        <div class="container p-4 mt-4">
+            <div class="row rowhome">
+                <!-- <div class="col-md-3 ">
+                    <figure class="inner position-relative">
+                        <img src="imag/58oia61564916529.jpg" class="w-100">
+                        <figcaption class="layer  bg-white d-flex align-items-center p-2">
+                            <h3 class="text-black">coper</h3>
+                        </figcaption>
+                    </figure>
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+ <!-- search layer -->
+  <div class="searchlayer p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="d-flex justify-content-end mb-2 ">
+            <button class="back  text-white">back</button>
+            </div>
+         <div class="row">
+            <div class="col-md-6">
+                <input onkeyup="searchbyname(this.value)" placeholder="search by name" class="w-100 form-control text-white">
+            </div>
+            <div class="col-md-6">
+                <input onkeyup="searchbyletter(this.value)" placeholder="search by first letter" maxlength="1" class=" w-100 form-control text-white">
+            </div>
+         </div>
+         <div class="row rowsearch mt-3">
+
+         </div>
+    </div>
+  </div>
+  <!-- category layer -->
+   <div class="categorylayer p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowcategory">
+          
+        </div>
+    </div>
+
+   </div>
+<!-- detalies of categories -->
+<div class="categorydetalies p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowcategorydetalies">
+          
+        </div>
+    </div>
+
+   </div>
+<!-- areaaaaaaa -->
+   <div class="arealayer p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowarea">
+          
+        </div>
+    </div>
+   </div>
+   <!-- detalis area -->
+   <div class="areadetalies p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowareadetalies">
+          
+        </div>
+    </div>
+   </div>
+<!-- ingredients -->
+<div class="ingredientslayer p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowngredients">
+        
+        </div>
+    </div>
+   </div>
+   <!--detalies ingredients  -->
+   <div class="ingredientsdetalies p-5 d-none fixed-posation">
+    <div class="container pt-2">
+        <div class="row rowingredientsdetalies">
+          
+        </div>
+    </div>
+   </div>
+   <!-- contact-layer --> 
+  <div class="contactlayer p-5 fixed-posation d-none">
+    <div class="container p-5 d-flex justify-content-center align-items-center vh-100 flex-column">
+        
+        <form   id="myForm"  data-form class="row rowcontact">
+            
+            <div class="col-md-6 mt-2 ">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" required placeholder="Enter your name.." id="name" data-form-input >
+                <div class="alertname bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">Special characters and numbers not allowed</p></div>
+            </div>
+            <div class="col-md-6 mt-2 ">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" required placeholder="Enter your email.."   id="email" data-form-input >
+                <div class="alertemail bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">ex:sohaila@gmail.com</p></div>
+            </div>
+            <div class="col-md-6 mt-2">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" required placeholder="Enter your phone.." id="phone" data-form-input >
+                <div class="alertphone bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">Enter valid Phone Number
+                </p></div>
+            </div>
+            <div class="col-md-6 mt-2 ">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" type="number" required placeholder="Enter your age.."id="age" data-form-input >
+                <div class="alertage bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">Enter valid age
+                </p></div>
+            </div>
+        
+            <div class="col-md-6 mt-2 ">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" type="password" required placeholder="Enter your password.." id="password"   data-form-input>
+                <div class="alertpass bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">Enter valid password *Minimum eight characters, at least one letter and one number:*
+                </p></div>
+            </div>
+            <div class="col-md-6 mt-2 ">
+                <input class="bg-white p-2 border rounded-1 w-100 form-control" type="password" required placeholder="Repassword.."id="Repassword"  data-form-input>
+                <div class="alertrepass bg-alert p-1 rounded mt-1 d-none"><p class=" text-danger ">Enter valid Repassword
+                </p></div>
+            </div>
+              <div class="col-12">
+                <button class="d-block m-auto mt-4 bg-transparent submit form-btn" type="submit" data-form-btn  disabled  >submit</button>
+
+              </div>
+        </form>
+ 
+        
+        
+    </div>
+   </div>
+
+
+
+
+    <!-- js -->
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="js/index.js"></script>
+</body>
+</html>
